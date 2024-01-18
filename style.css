@@ -69,15 +69,15 @@ button:active{ /*quando click em cima*/
 }
 
 .blue-button{
-    background-color: blue;
+    background-color: rgb(13, 160, 33);
 }
 
 .equal-button{
-    background-color: rgb(87, 87, 192);
+    background-color: rgb(34, 129, 85);
 }
 
 .gray-button{
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(175, 175, 175);
 }
 
 .zero{
