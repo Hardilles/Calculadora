@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwNTQ0MjQ4OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    width: 100vw; /*Ocupa a tela inteira na vertical*/
+    height: 100vh; /*Ocupa a tela inteira na horizontal*/
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background: linear-gradient(191.34deg, #000000 -4.95%, #000000 103.74%);
+    border-radius: 30px;
+    width: 375px;
+    height: 568px; 
+    display: grid; /*Divisão da tela*/
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.651)
+    
+
+
+
+
+}
+
+input{
+    font-size: 60px;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    background-color: #00000000;
+    border: none;
+    text-align: right;
+    padding-top: 50px;
+    outline: none;
+  
+    
+}
+
+button{
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{ /*quando passa o moude em cima*/
+    opacity: 0.8; /*fica um pouco transparente*/
+    
+}
+
+button:active{ /*quando click em cima*/
+    opacity: 0.5; /*fica mais transparente*/
+    
+}
+
+.black-button{
+    background-color: rgb(65, 65, 65);
+}
+
+.blue-button{
+    background-color: blue;
+}
+
+.equal-button{
+    background-color: rgb(87, 87, 192);
+}
+
+.gray-button{
+    background-color: rgb(163, 163, 163);
+}
+
+.zero{
+    grid-column: 1 / 3;
+    
+}
+
+.igual{
+    grid-row: 6 / 8;
+    grid-column: 4 / 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* grid-template-columns e grid-template-rows
+div{
+    background-color: black;
+    display: grid; /*Divisão da tela
+    width: 100vw; /*Ocupa a tela inteira na vertical
+    height: 100vh; /*Ocupa a tela inteira na horizontal
+    grid-template-columns: 1fr 1fr; /*fração da divisão das colunas da tela 4 colunas
+    /*As frações podem ser ajustadas e px 200px 200px 200px
+    grid-template-rows: 1fr 2fr 1fr; /*fração da divisão das linhas da tela 5 colunas
+    
+}
+
+header{
+    background-color: brown;
+    grid-column: 1 / 3; /*Colunas = Ocupa da 1ª coluna até a 3ª
+    grid-row: 1 / 2;    /*Linhas = Ocupa da 1ª coluna até a 2ª
+    
+}
+
+main{
+    background-color:blue;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    
+
+}
+
+aside{
+    background-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    
+}
+
+footer{
+    background-color:purple;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
+}
+
+
+
+
+
+
+
+/*grid-template-areas
+
+div{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: grid; Divisão da tela
+    grid-template-areas:
+        "header header header" Comentário Organização das caixas na tela 3 linhas e 3 colunas"
+        "main main aside"
+        "footer footer footer"
+    ;
+}
+
+header{
+    background-color: brown;
+    height: 100px;
+    grid-area: header; Comentário Nomeando a area desta grid
+}
+
+main{
+    background-color:blue;
+    height: 400px;
+    grid-area: main; Comentário Nomeando a area desta grid
+
+}
+
+aside{
+    background-color: yellow;
+    height: 400px;
+    grid-area: aside; Comentário Nomeando a area desta grid
+}
+
+footer{
+    background-color:purple;
+    height: 100px;
+    grid-area: footer; ComentárioNomeando a area desta grid
+}
+
+*/
